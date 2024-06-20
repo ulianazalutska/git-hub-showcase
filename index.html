@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/normalize.min.css" />
+    <link rel="icon" href="./image/iconchrome.png" />
+    <link rel="stylesheet" href="./css/style.css" />
+    
+    <title>GitHub</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="header__logo">Git<span class="hup">Hub</span></a>
+      <div class="header__burger">
+        <span></span>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__list">
+            <a class="header__link btn1" href="index.html">Home</a>
+          </li>
+          <li><a class="header__link btn1" href="feature.html">Feature</a></li>
+          <li><a class="header__link btn1" href="./php/customers.php">Customers</a></li>
+          <li>
+            <a class="header__link btn2" href="./php/log.php">Log in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <section>
+        <div class="main">
+          <div class="main__text">
+            <h1 class="main__title">
+              GitHub is a hosting web service for Git repositories, such as
+              storing Microsoft Learn content.
+            </h1>
+            <p class="main__desc">
+              From this repository, contributors copy their work.GitHub hosts
+              the main repository of all projects.
+            </p>
+            <a class="main__btn main__btn-gradient" target="_blank" href="https://github.com/">Explore Now</a>
+            <a class="main__btn" target="_blank" href="https://docs.github.com/en/desktop/installing-and-configuring-github-desktop/installing-and-authenticating-to-github-desktop/installing-github-desktop">Download</a>
+            <ul class="main__list">
+              <li class="main__item">
+                <span class="main__span">37k+</span>Artwork
+              </li>
+              <li class="main__item">
+                <span class="main__span">20k+</span>Artists
+              </li>
+              <li class="main__item">
+                <span class="main__span">99k+</span>Aucations
+              </li>
+            </ul>
+          </div>
+          <div class="main__image">
+            <img class="main__img" src="./image/home/fonn.png" alt="" />
+          </div>
+        </div>
+        <div class="company">
+          <img class="company__img" src="./image/home/comp11.png" alt="vue" />
+          <img class="company__img"src="./image/home/comp22.png" alt="android" />
+          <img class="company__img"src="./image/home/comp33.png" alt="reactive" />
+        </div>
+      </section>
+      <section class="cards">
+        <h2 class="title">Chat bots are presented</h2>
+        <p class="desc">Bring GitHub into your conversations</p>
+        <div class="card">
+          <div class="card__item">
+            <div class="card__cover">
+              <img class="card__img" src="./image/home/card1.png" alt="" />
+              <p class="card__text">GitLive</p>
+              <button class="btn__over">
+                <a
+                  href="https://github.com/marketplace/teamhub"
+                  class="btn__a"
+                  target="_blank"
+                  
+                  >GO OVER</a
+                >
+              </button>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__cover">
+              <img class="card__img" src="./image/home/card2.png" alt="" />
+              <div class="card__content">
+                <p class="card__text">Axolo for Slack</p>
+                <button class="btn__over">
+                  <a
+                    class="btn__a"
+                    target="_blank"
+                    href="https://github.com/marketplace/axolo-for-slack"
+                    >GO OVER</a
+                  >
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="card__item">
+            <div class="card__cover">
+              <img class="card__img" src="./image/home/card3.png" alt="" />
+              <p class="card__text">Slack + GitHub</p>
+              <button class="btn__over">
+                <a
+                  class="btn__a"
+                  target="_blank"
+                  href="https://github.com/marketplace/slack-github"
+                  >GO OVER</a
+                >
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <h2 class="title">Freaquently Asked Question</h2>
+        <p class="desc">Wanna Ask Something?</p>
+        <div class="faq">
+          <div class="faq__item">
+            <button class="collapsible">What is Git Hub and how does it work?</button>
+<div class="content">
+  <p>Github is an online service for storing and managing versions of code based on the Git version control system.</p>
+</div>
+<button class="collapsible">How to create a new repository on Github?</button>
+<div class="content">
+  <p>To create a new repository on Git Hub, you need to log in to your account, click the "New" button, enter the name and description of the repository, select the type and options, and click "Create repository".</p>
+</div>
+<button class="collapsible">How to upload files to Github?</button>
+<div class="content">
+  <p>To upload files to Git Hub, you need to log in to your account, select a repository, click "Add file", select "Upload files", select files and click "Commit changes".</p>
+</div>
+
+          </div>
+          <div class="faq__item">
+            <button class="collapsible">How to create a new branch in Github?</button>
+            <div class="content">
+              <p>To create a new branch in Git Hub, you need to log in, select a repository, click "Branch: main" and enter the name of the new branch, and click "Create branch".</p>
+            </div>
+            
+            
+            <button class="collapsible">How to merge branches in Git Hub?</button>
+            <div class="content">
+              <p>To merge branches in Git Hub, you need to go to one of the branches, click "New pull request", select the branches to be merged, check for conflicts, commit and merge the changes.</p>
+            </div>
+            <button class="collapsible">How to resolve a conflict when merging branches on Github?</button>
+            <div class="content">
+              <p>To resolve a conflict when merging branches on Git Hub, you need to check the difference between the branches, resolve conflicts in the code, run a local test server, save the changes, and push them to Git Hub.</p>
+            </div>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"> </div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
+      </div>
+      <ul class="social__icon">
+        <li><a href="https://www.facebook.com/GitHub"><ion-icon name="logo-facebook"></ion-icon></a></li>
+        <li><a href="https://twitter.com/github"><ion-icon name="logo-twitter"></ion-icon></a></li>
+        <li><a href="https://www.linkedin.com/company/github"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+        <li><a href="https://www.youtube.com/github"><ion-icon name="logo-instagram"></ion-icon></a></li>
+      </ul>
+      <ul class="menuu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="feature.html">Feature</a></li>
+        <li><a href="./php/customers.php">Customers</a></li>
+        <li><a href="./php/log.php">LogIn</a></li>
+      </ul>
+      <p>© 2023 GitHub, Inc.</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    
+    <script>
+      var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function () {
+    this.classList.toggle("go");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight) {
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+    </script>
+    <script>
+      $(document).ready(function () {
+    $(".header__burger").click(function (event) {
+      $(".header__burger, .header__nav").toggleClass("active");
+      $(".body").toggleClass("lock");
+    });
+  });
+    </script>
+  </body>
+</html>
